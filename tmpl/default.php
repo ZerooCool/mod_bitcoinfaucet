@@ -1,6 +1,7 @@
 <?php 
 defined('_JEXEC') or die; ?>
 <!-- No direct access -->
+<?php echo $BitcoinFaucet; ?>
 
 <script language="JavaScript">
 function ChangeUrlBitcoin(formbitcoin)
@@ -13,8 +14,6 @@ function ChangeUrlBitcoin(formbitcoin)
        }
    }
 </script>
-
-<?php echo $BitcoinFaucet; ?>
 
 <!--FORMULAIRE BITCOIN -->
 <!--<label for="bitcoin"><p style="width:350px;font-size:12px;">Soutenir Vision du web avec un don en Bitcoins.<br/>33ZsupGQr1rUmwj62HadcZ55hsGJajD9wN</p></label>-->
