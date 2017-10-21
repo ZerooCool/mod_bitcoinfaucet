@@ -1,16 +1,10 @@
 # mod_bitcoinfaucet
 Module Bitcoin Faucet pour Joomla 3.x
 
-Lien vers GitHub : https://github.com/ZerooCool/mod_bitcoinfaucet
-Lien vers le tutoriel pour créer un module Joomla sur le wiki : ...
-
 # Utilité du module
 Découvrir la cryptomonnaie et le Bitcoin par la pratique.
 Créer un portefeuille gratuit avec block.io
 Gagner des Bitcoins gratuitement en jouant.
-
-# Plus d'informations sur la cryptomonnaie Bitcoin
-Source : https://www.visionduweb.eu/wiki/index.php?title=Accueil_Miner_des_Bitcoins
 
 # Améliorations à venir
 Privilégier JText pour les langues.
@@ -39,3 +33,13 @@ Penser à l'impact SEO des liens présentés.
 Le faire en target="_blank" avec rel=”noopener noreferrer” devenu indispensable pour les liens externes !
 
 Informer depuis le backend sur le potentiel risque de Scam et de sécurité, pouvant transformer un OS en zombie.
+
+# Bibliographie
+Lien vers le dépôt GitHub pour télécharger la dernière version de mod_bitcoinfaucet :
+https://github.com/ZerooCool/mod_bitcoinfaucet
+
+Lien vers le tutoriel pour créer un module Joomla sur le wiki :
+https://www.visionduweb.eu/wiki/index.php?title=Composants_Modules_Plugins_pour_Joomla#Créer_un_Module_multilingue_avec_une_base_de_données
+
+Plus d'informations sur la cryptomonnaie Bitcoin :
+https://www.visionduweb.eu/wiki/index.php?title=Accueil_Miner_des_Bitcoins
