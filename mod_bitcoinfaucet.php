@@ -11,20 +11,19 @@
  * is derivative of works licensed under the GNU General Public License or
  * other free or open source software licenses.
  */
- 
+
 // No direct access
 defined('_JEXEC') or die;
 // Include the syndicate functions only once
 require_once dirname(__FILE__) . '/helper.php';
- 
+
 /**
   * This retrieves the lang parameter we stored earlier. Note the second part
   * which states to use the default value of 1 if the parameter cannot be
   * retrieved for some reason
 **/
-$language = $params->get('lang', '1');
-$BitcoinFaucet    = ModBitcoinFaucet::getBitcoinFaucet( $language );
 
-//$BitcoinFaucet = ModBitcoinFaucet::getBitcoinFaucet($params);
+$language = $params->get('lang', '1');
+$BitcoinFaucet = ModBitcoinFaucet::getBitcoinFaucet($language);
 
 require JModuleHelper::getLayoutPath('mod_bitcoinfaucet');

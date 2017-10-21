@@ -1,6 +1,9 @@
 # mod_bitcoinfaucet
 Module Bitcoin Faucet pour Joomla 3.x
 
+Lien vers GitHub : https://github.com/ZerooCool/mod_bitcoinfaucet
+Lien vers le tutoriel pour créer un module Joomla sur le wiki : ...
+
 # Utilité du module
 Découvrir la cryptomonnaie et le Bitcoin par la pratique.
 Créer un portefeuille gratuit avec block.io

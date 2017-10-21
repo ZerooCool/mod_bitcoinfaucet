@@ -15,7 +15,8 @@
     <config>
 		<fields name="params">
 		    <fieldset name="basic">
-		        <field name="lang" type="sql" default="1" label="Select a language" query="SELECT id AS value, lang FROM #__BitcoinFaucet" />
+				<!-- La valeur default représente le choix de la langue par défaut -->
+		        <field name="lang" type="sql" default="4" label="Select a language" query="SELECT id AS value, lang FROM #__BitcoinFaucet" />
 		    </fieldset>
 		</fields>
     </config>
@@ -23,21 +24,21 @@
 	<install>
 	     <sql>
 	         <file driver="mysql" charset="utf8">sql/mysql/install.mysql.utf8.sql</file>
-	         <file driver="sqlazure" charset="utf8">sql/sqlazure/install.sqlazure.utf8.sql</file>
+	         <!--<file driver="sqlazure" charset="utf8">sql/sqlazure/install.sqlazure.utf8.sql</file>-->
 	     </sql>
 	</install>
 	 
 	<uninstall>
 	     <sql>
 	         <file driver="mysql" charset="utf8">sql/mysql/uninstall.mysql.utf8.sql</file>
-	         <file driver="sqlazure" charset="utf8">sql/sqlazure/uninstall.sqlazure.utf8.sql</file>
+	         <!--<file driver="sqlazure" charset="utf8">sql/sqlazure/uninstall.sqlazure.utf8.sql</file>-->
 	     </sql>
 	</uninstall>
 	 
 	<update> 
 	    <schemas>
 	        <schemapath type="mysql">sql/mysql/</schemapath> 
-		<schemapath type="sqlazure">sql/sqlazure/</schemapath> 
+			<!--<schemapath type="sqlazure">sql/sqlazure/</schemapath>-->
 	    </schemas> 
 	</update>
     

@@ -22,7 +22,6 @@ class ModBitcoinFaucet
      */    
     public static function getBitcoinFaucet($params)
     {
-
 		// Obtain a database connection
 		$db = JFactory::getDbo();
 		// Retrieve the shout - note we are now retrieving the id not the lang field.
